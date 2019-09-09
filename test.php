@@ -22,6 +22,14 @@ HTMLBLOCK; -->
 // $b_len = strlen($b);
 // print "長さは：$b_len";
 // print ucwords(strtolower('OSONO TAKUMA'));
-$num = '1234-5678-9101-1213';
-print "Card:XX" . substr($num,-4);
+// $num = '1234-5678-9101-1213';
+// print "Card:XX" . substr($num,-4);
+$a = "拓真";
+print <<<NAME
+<html>
+<head><title>Name</title></head>
+<body bgcolor="fffed9">
+<h1>名前</h1>
+私の名前は<br>"$a"<br>です。
+NAME
 ?>
